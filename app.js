@@ -28,6 +28,6 @@ app.get('/:username', verifyCache, async (req, res) => {
   }
 });
 
-app.listen(4000, () => {
+app.listen(3000, () => {
     // console.log('My rest api running on port 3000')
 })
